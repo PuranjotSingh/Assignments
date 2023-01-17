@@ -1,4 +1,4 @@
-list1=list(map(int,input("Enter the numbers separated by space:").split()))
+list1=list(map(int(input("Enter the numbers separated by space:").split()))
 
 list2=[]
 for e in list1:
