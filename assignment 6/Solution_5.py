@@ -1,0 +1,6 @@
+a=input("Enter a string seperated by hyphens(-)")
+a=a.replace("-"," ")
+list_1=list(a.split())
+list_1.sort()
+b="-".join(list_1)
+print(b)
